@@ -1,0 +1,7 @@
+<suite name="Aishwarya's Test Suite">
+    <test name="Home Page Test Cases">
+        <classes>
+            <class name="com.mystore.testcases.tshirtModule.TshirtModuleTestCases"/>
+        </classes>
+    </test>
+</suite>

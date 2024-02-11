@@ -1,0 +1,12 @@
+<suite name="Aishwarya's Test Suite" parallel="tests" thread-count="2">
+    <test name="signup Test Cases">
+        <classes>
+            <class name="com.project.module.signUP.SignUpTest"/>
+        </classes>
+    </test>
+    <test name="login Test case">
+        <classes>
+            <class name="com.project.module.login.LoginTest"/>
+        </classes>
+    </test>
+</suite>

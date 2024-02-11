@@ -11,7 +11,7 @@ public class PropertyReader {
     {
         properties = new Properties();
         try {
-            FileInputStream input=new FileInputStream(System.getProperty("user.dir")+"\\configurations\\GlobalProperties.propertise");
+            FileInputStream input=new FileInputStream(System.getProperty("user.dir")+"\\configurations\\GlobalProperties.properties");
             properties.load(input);
         } catch (IOException e) {
             e.printStackTrace();

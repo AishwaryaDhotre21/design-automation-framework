@@ -18,6 +18,7 @@ public class BrowserFactory {
             ChromeOptions pref= new ChromeOptions();
             pref.addArguments("−−incognito");
             driver = new ChromeDriver(pref);
+
         }
         else if (browser.equalsIgnoreCase("Firefox")) {
             WebDriverManager.firefoxdriver().setup();
